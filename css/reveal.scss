@@ -612,7 +612,7 @@ $controlsArrowAngleActive: 36deg;
 
 	overflow: visible;
 	z-index: 1;
-	text-align: center;
+	text-align: left;
 	perspective: 600px;
 	perspective-origin: 50% 40%;
 }
@@ -1761,4 +1761,15 @@ $controlsArrowAngleActive: 36deg;
 
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
+}
+
+/** Custom CSS **/
+.line {
+  content :'';
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin-top: .875em;
+  margin-bottom: 0.875em;
+  background-color: #42affa;
 }
